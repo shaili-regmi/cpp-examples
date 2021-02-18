@@ -11,11 +11,7 @@ using namespace std;
 
 int main(int argc, char** argv)
 {
-#if WIN32
-   string filename = "../../files/snacks.txt";
-#else
    string filename = "../files/snacks.txt";
-#endif
 
    // TODO: Your code here
 }

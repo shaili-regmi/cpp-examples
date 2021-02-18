@@ -6,14 +6,13 @@ using namespace std;
 
 int main(int argc, char** argv)
 {
-   float values1[] = {2.0f, 3.0f, 5.0f}; // on the stack -> automatically deleted
-
    float* values2 = new float[5]; // dynamic allocation -> needs a delete[] later
    for (int i = 0; i < 5; i++) // for loop
    {
       values2[i] = i; 
    }
 
+   float values1[] = {2.0f, 3.0f, 5.0f}; // on the stack -> automatically deleted
    for (int i : values1) // for-each semantics loop
    {
       cout << i << " ";

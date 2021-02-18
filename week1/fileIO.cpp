@@ -8,11 +8,7 @@ using namespace std;
 
 int main(int argc, char** argv)
 {
-#if WIN32
-   string filename = "../../files/grades.txt";
-#else
    string filename = "../files/grades.txt";
-#endif
 
    ifstream file(filename);
    if (!file) // true if the file is valid
