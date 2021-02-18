@@ -16,7 +16,7 @@ int main(int argc, char** argv)
    bool isCold = false;
    cout << greeting << endl;
 
-   float fraction = 1/3; // DANGER ZONE
+   float fraction = 1/3.0f; // DANGER ZONE
    cout << fraction << endl;
 
    // C++ defines useful constants in <limits>
