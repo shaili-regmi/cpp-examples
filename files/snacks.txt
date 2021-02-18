@@ -1,0 +1,8 @@
+7
+Slurm  5  1  Flourescent_goodness
+DietSlurm  0  1  Flourescent_goodnes,_no_calories 
+SlurmClassic  3  1  Nostalgic_flavor
+CherrySlurm  5  2  Flourescent_Cherry
+OrangePuffs  8  5  Salty_and_cheesy
+CandyCauliflower  2  3  Sticks_to_teeth
+MagicBeans  1  100  Are_they_worth_the_hype?
