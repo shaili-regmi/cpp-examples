@@ -6,9 +6,19 @@ using namespace std;
 class Box
 {
 public:
+
+   Box(): mySize(1.0f) // default constructor
+   {
+   }
+   
    Box(float s)
    {
       mySize = s;
+   }
+
+   ~Box() //destructor
+   {
+       cout << "Called on delete\n";
    }
 
    float getSize() 
@@ -22,10 +32,12 @@ protected:
 
 int main(int argc, char** argv)
 {
-   Box box(2.0);
+    Box box1; //calls default constructor (created stack)
+
+    Box box(2.0); // created on the stack
    cout << box.getSize() << endl;
     
-   Box* boxPtr = new Box(3.0);
+   Box* boxPtr = new Box(3.0); // dynamically allocated
    cout << boxPtr->getSize() << endl;
    delete boxPtr;
 }

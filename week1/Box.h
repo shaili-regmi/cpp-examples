@@ -20,3 +20,18 @@ protected:
 };
 
 #endif
+/*
+// Bryn Mawr College, 2021
+#pragma once
+
+class Box
+{
+public:
+	Box();
+	Box(float s);
+	float getSize();
+
+protected:
+	float mySize = 1.0f;
+};
+*/
